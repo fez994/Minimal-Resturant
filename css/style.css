@@ -1,7 +1,7 @@
 
 @font-face {
-    font-family: Lombok;
-    src: url(../fonts/Lombok.otf) format('truetype');
+    font-family: Audrey;
+    src: url(../fonts/Audrey-Normal.otf) format('truetype');
 }
 
 html,
@@ -41,13 +41,13 @@ footer {
 
 
  .nav.navbar-nav.navbar-right a {
-	font-family: "Lombok", serif;
+	font-family: "Audrey", serif;
 	font-size: 150%;
 	color: white;
 }
 
  a.navbar-brand{
-	font-family: "Lombok", serif;
+	font-family: "Audrey", serif;
 	font-size: 200%;
 	color: white !important;
 	letter-spacing: 2.4px;
@@ -57,5 +57,29 @@ footer {
 	padding-top: 2%;
 }
 
+h2 {
+	font-family: "Audrey";
+}
 
+#content {
+	width: 100%;
+	height: 30%;
+	background-color: #ff6933;
+	text-align: center;
+}
 
+#img {
+	position: absolute;
+	left: 50%;
+	padding-top: 10%;
+}
+
+.number {
+	padding-top: 30%;
+	position: absolute;
+	left: 35%;
+}
+
+.container {
+	width: 100%;
+}
