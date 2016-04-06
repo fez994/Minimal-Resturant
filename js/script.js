@@ -7,10 +7,11 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $(".navbar.navbar-default").css('background-color', '#f0f0f0');
+          $(".navbar, .navbar-default, .navbar-fixed-top").css('background-color', 'orange');
        } else {
-          $('.navbar.navbar-default').css('background-color', 'transparent');
+          $('.navbar, .navbar-default, .navbar-fixed-top').css('background-color', 'transparent');
        }
    });
     }
+
 });
