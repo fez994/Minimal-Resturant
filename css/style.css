@@ -144,3 +144,12 @@ li {
 	font-family: "MANIFESTO";
 	padding-top: 3%;
 }
+
+#map {
+	width: 1000px;
+	height: 450px;
+	position: absolute;
+	left: 20%;
+	top: 20%;
+	
+}
