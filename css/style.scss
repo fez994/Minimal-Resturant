@@ -1,0 +1,51 @@
+$blue: #22264b;
+$white: #fff;
+
+
+body {
+	background: #fff;
+}
+
+
+
+@font-face {
+	font-family: Ailerons-Typeface;
+	src: url(../fonts/Ailerons-Typeface.otf);
+}
+
+@font-face {
+	font-family: Audrey;
+	src: url(../fonts/Audrey-Normal.otf);
+}
+
+
+#header h2 {
+	text-align: center;
+	color: $blue;
+	font-family: Ailerons-Typeface;
+	margin: 4%;
+	letter-spacing: 3px;
+}
+
+#header {
+	text-align: center;
+	margin: 3%;
+}
+
+#header p {
+	font-family: Audrey;
+	color: $blue;
+	letter-spacing: 2px;
+}
+
+
+#menu {
+	text-align: center;
+}
+
+
+#nav li {
+	display: inline-block;
+	text-decoration: none;
+	margin: 3%;
+}
