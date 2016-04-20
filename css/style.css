@@ -11,7 +11,7 @@ body {
   text-align: center;
   color: #22264b;
   font-family: Ailerons-Typeface;
-  margin: 4%;
+  margin: 2%;
   letter-spacing: 3px; }
 
 #header {
@@ -30,5 +30,18 @@ body {
   display: inline-block;
   text-decoration: none;
   margin: 3%; }
+  #nav li a {
+    font-family: Audrey;
+    text-decoration: none;
+    color: #22264b;
+    font-size: 1.2em;
+    letter-spacing: 2px; }
+
+#home-img-container {
+  position: relative;
+  bottom: 0; }
+  #home-img-container #home-img {
+    width: 100%;
+    height: 60em; }
 
 /*# sourceMappingURL=style.css.map */
