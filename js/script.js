@@ -1,17 +1,7 @@
+$(document).ready(function(){
 
-$(document).ready(function(){       
-   var scroll_start = 0;
-   var startchange = $('#startchange');
-   var offset = startchange.offset();
-    if (startchange.length){
-   $(document).scroll(function() { 
-      scroll_start = $(this).scrollTop();
-      if(scroll_start > offset.top) {
-          $(".navbar, .navbar-default, .navbar-fixed-top").css('background-color', 'orange');
-       } else {
-          $('.navbar, .navbar-default, .navbar-fixed-top').css('background-color', 'transparent');
-       }
-   });
-    }
+$('li').hover(function(){
+  $(this).css('text decoration:', 'underline');
+});
 
 });
